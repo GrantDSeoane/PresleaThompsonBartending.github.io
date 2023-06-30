@@ -217,7 +217,7 @@ button {
 }
 
 .layout_padding {
-    padding-top: 90px;
+    padding-top: 400px;
     padding-bottom: 0px;
 }
 
@@ -231,7 +231,7 @@ button {
 .header_section {
     width: 100%;
     float: left;
-    background-image: url(../images/banner-bg.png);
+    background-image: url(../images/Banner.jpg);
     height: auto;
     background-size: 100%;
     padding: 0px 0px 20px 0px;
@@ -313,12 +313,12 @@ button {
     text-transform: uppercase;
     padding-top: 10px;
     padding-bottom: 10px;
-    color: #fff;
+    color: #000;
     border-radius: 40px;
 }
 
 .menu_main li a {
-    color: #ffffff;
+    color: #000000;
     padding: 10px 20px;
     border-radius: 10px;
 }
@@ -351,14 +351,13 @@ button {
 .banner_section {
     width: 100%;
     float: left;
-    padding-bottom: 305px;
 }
 
 .banner_taital {
     width: 100%;
     float: left;
     font-size: 80px;
-    color: #ffffff;
+    color: #000000;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
@@ -369,7 +368,7 @@ button {
     width: 63%;
     margin: 0 auto;
     font-size: 16px;
-    color: #ffffff;
+    color: #000000;
     text-align: center;
 }
 
@@ -383,8 +382,8 @@ button {
     width: 100%;
     float: left;
     font-size: 16px;
-    color: #141414;
-    background-color: #ffffff;
+    color: #ffffff;
+    background-color: #000000;
     text-align: center;
     padding: 10px 0px;
     border-radius: 30px;
@@ -415,6 +414,7 @@ button {
     font-size: 40px;
     color: #1f1f1f;
     font-weight: bold;
+    text-align: left;
 }
 
 .services_text {
@@ -435,6 +435,7 @@ button {
     width: 100%;
     float: left;
     text-align: center;
+    height: 500px;
 }
 
 .btn_main {
@@ -537,44 +538,39 @@ button {
 
 
 /* contact section end */
+/* video section start */
 
-
-/* blog section start */
-
-.blog_section {
+.video_section {
     width: 100%;
     float: left;
-    background-image: url(../images/blog-bg.png);
     height: auto;
     background-repeat: no-repeat;
     background-size: 100%;
-    padding-bottom: 345px;
-    padding-top: 200px;
 }
 
-.blog_taital {
+.video_promotional {
     width: 100%;
     float: left;
     font-size: 40px;
-    color: #ffffff;
+    color: #000000;
     font-weight: bold;
     padding-top: 30px;
     text-align: center;
 }
 
-.blog_text {
+.video_text {
     width: 80%;
     margin: 0 auto;
     font-size: 16px;
-    color: #ffffff;
+    color: #FFFFFF;
     padding-top: 40px;
     text-align: center;
 }
 
 .play_icon_main {
-    width: 100%;
-    margin-top: 150px;
+    margin-top: 25px;
     float: left;
+    margin-left: 20%;
 }
 
 .play_icon {
@@ -614,9 +610,7 @@ button {
 .margin_top_90{
     margin-top: 90px;
 }
-/* blog section end */
-
-
+/* video section end */
 /* client section start */
 
 .client_section {
@@ -896,7 +890,7 @@ button {
 .footer_section {
     width: 100%;
     float: left;
-    background-image: url(../images/footer-bg.png);
+    background-image: url(../images/footer.jpg);
     height: auto;
     padding-top: 250px;
     background-size: 100% 100%;
