@@ -566,6 +566,10 @@ button {
     padding-top: 40px;
     text-align: center;
 }
+.video {
+    width: 100%;
+    max-height: 100%;
+}
 
 .play_icon_main {
     margin-top: 25px;
@@ -574,7 +578,6 @@ button {
 }
 
 .play_icon {
-    width: 200px;
     margin: 0 auto;
     position: relative;
     z-index: 5;
